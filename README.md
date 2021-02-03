@@ -12,6 +12,20 @@ In order to accomplish this mission, I needed to use **Twitter Bootstrap**, **Vi
 
 ### Mock-ups ###
 
+**Mobile**
+
+![Mobile](/images/mockupdmobile.jpg)
+
+**Desktop**
+
+![Welcome](/images/desktop.jpg)
+![Menu](/images/desktop1.jpg)
+![Photos](/images/desktop2.jpg)
+![Restaurant](/images/desktop3.jpg)
+![Contact](/images/desktop4.jpg)
+
+
+
 ### Credits ###
 
 All photos were found on [Unsplash](https://https://unsplash.com/)
