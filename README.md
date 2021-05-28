@@ -8,7 +8,7 @@ To see the final result, click [here!](https://paulolvsn.github.io/restaurant-cs
 
 It was asked of us to create a website for a fictional restaurant using Twitter Bootstrap. The biggest goal was for us to familiarize ourselves with the framework. It was our first big project, as the website has several different pages (Welcome, Menu, Photos (with pagination), Restaurant and Contact).
 
-In order to accomplish this mission, I needed to use **Twitter Bootstrap**, **Visual Studio Code**,  **HTML 5** and **CSS 3**
+In order to accomplish this mission, I needed to use **Twitter Bootstrap**, **Visual Studio Code**,  **HTML 5**, **CSS 3** and **PHP**.
 
 ### Mock-ups ###
 
