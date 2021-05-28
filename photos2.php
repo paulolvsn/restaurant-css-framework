@@ -15,6 +15,7 @@
                <section class="col-6 col-md-6">
                    <a href="index.html"><img src="icons/logo.jpg" alt="Welcome to Saudade!" class="float-start" height="35px"></a>
                </section>
+               
                <section class="col-6 md-6 d-flex justify-content-end">
                     <a href="https://www.facebook.com" target="_blank"><img src="icons/facebook.png" alt="Facebook" height="20px"></a>
                     <a href="https://www.instagram.com" target="_blank"><img src="icons/instagram.png" alt="Instagram" height="20px"></a>
@@ -32,56 +33,44 @@
               <a class="nav-link" href="menu.html">MENU<span class="sr-only"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="photos.html">PHOTOS</a>
+              <a class="nav-link" href="photos.html"><b>PHOTOS</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="restaurant.html">RESTAURANT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html"><b>CONTACT</b></a>
+              <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
           </ul>
         </div>
-      </nav> 
-    <main>
-        <section class="row">
-            <section class="col-12 col-md-6">
-                <h4 class="float-end">WRITE US</h4>
-                <img src="images/feijoada4.jpeg" alt="feijoada" class="img-fluid"> 
-            </section>
-            <section class="col-12 col-md-6">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                      CHOOSE SUBJECT
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <li><a class="dropdown-item" href="#">RESERVATIONS</a></li>
-                      <li><a class="dropdown-item" href="#">COMPLAINTS</a></li>
-                      <li><a class="dropdown-item" href="#">OTHER QUESTIONS</a></li>
-                    </ul>
-                  </div>
-                  
-                <div class="mb-3">
-                    <label for="FormControlInput1" class="form-label">First Name</label>
-                    <input type="n" class="form-control" id="exampleFormControlInput1" placeholder="John">
-                  </div>
-                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
-                  </div>
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Tell us</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                  <button>SEND</button>
-            </section>
-        </section>
-
-        <footer>
-          <p class="text-center">© all rights reserved</p>
-         </footer> 
-    </main>
-</body>
-</html>
+      </nav>
+       <section class="row">
+           <section class="col-12 col-md-4">
+               <img src="images/carne.jpg" alt="carne" class="img-fluid">
+           </section>
+           <section class="col-12 col-md-4">
+               <img src="images/feijoada.jpg" alt="feijoada" class="img-fluid">
+           </section>
+           <section class="col-12 col-md-4">
+               <img src="images/frango.jpg" alt="frango" class="img-fluid">
+           </section>
+           <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              
+                <a class="page-link" href="photos.html">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="photos.php">1</a></li>
+              <li class="page-item active"><a class="page-link" href="photos2.php">2</a></li>
+              <li class="page-item"><a class="page-link" href="photos3.php">3</a></li>
+              <li class="page-item"><a class="page-link" href="photos4.php">4</a></li>
+              <li class="page-item">
+                <a class="page-link" href="photos3.php">Next</a>
+              </li>
+            </ul>
+          </nav>
+       </section>
+      <footer>
+       <p class="text-center">© all rights reserved</p>
+      </footer>
+   </body>
+   </html>

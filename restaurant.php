@@ -8,6 +8,7 @@
     <title>SAUDADE</title>
 </head>
 <body>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <section class="container-fluid">
        <header>
@@ -33,44 +34,54 @@
               <a class="nav-link" href="menu.html">MENU<span class="sr-only"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="photos.html"><b>PHOTOS</b></a>
+              <a class="nav-link" href="photos.html">PHOTOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="restaurant.html">RESTAURANT</a>
+              <a class="nav-link" href="restaurant.html"><b>RESTAURANT</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+              <a class="nav-link" href="contact.php">CONTACT</a>
             </li>
           </ul>
         </div>
       </nav>
-       <section class="row">
-           <section class="col-12 col-md-4">
-               <img src="images/abobora.jpg" alt="pumpkin" class="img-fluid">
+       <main>
+           <section class="row">
+               <section class="col-6 col-md-3">
+                   <h4>ABOUT</h4>
+                   <p class="text-justify">Saudade is an indescribable word in Portuguese that translates in a feeling of longing, yearning, but also in some depths of nostalgia. Saudade opened in 2010 and has now more than a decade of high quality Brazilian food. We serve Brazilian appetizers, such as coxinha and pão de queijo, but also main dishes, such as feijoada, moqueca de peixe, virado à paulista. Make sure to check our <a href="contact.html"> contact page</a> to make a reservation!</p>
+               </section>
+               <section class="col-6 col-md-3">
+                   <h4>OPENING HOURS</h4>
+                       <ul><b>Monday</b> 12-22</ul>
+                       <ul><b>Tuesday</b> closed</ul>
+                       <ul><b>Wednesday</b> 12-22</ul>
+                       <ul><b>Thursday</b> 12-22</ul> 
+                       <ul><b>Friday</b> 12-22</ul>
+                       <ul><b>Saturday</b> 16-22</ul>
+                       <ul><b>Sunday</b> closed</ul>
            </section>
-           <section class="col-12 col-md-4">
-               <img src="images/mandioca.jpeg" alt="mandioca" class="img-fluid">
+               <section class="col-6 col-md-3">
+                   <h4>LOCATIONS</h4>
+                   <p>Chaussée de Waterloo, 195</p>
+                   <p>Rue de Bailli, 45</p>
+                   <p>Rue de Flandre, 55</p>
+                   <p>Chaussée de Boondael, 460</p>
+               </section>
+               <section class="col-6 col-md-3">
+                   <h4>MAPS</h4>
+                  <!--Google map-->
+<div id="map-container-google-2" class="z-depth-1-half map-container" class="img-fluid">
+    <iframe src="https://maps.google.com/maps?q=Waterloosesteenweg&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+      style="border:0" allowfullscreen></iframe>
+  </div>
+  
+  <!--Google Maps-->
+               </section>
            </section>
-           <section class="col-1é col-md-4">
-               <img src="images/pinhao.jpg" alt="pinhao" class="img-fluid">
-           </section>
-           <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">Previous</a>
-              </li>
-              <li class="page-item active"><a class="page-link" href="photos.html">1</a></li>
-              <li class="page-item"><a class="page-link" href="photos2.html">2</a></li>
-              <li class="page-item"><a class="page-link" href="photos3.html">3</a></li>
-              <li class="page-item"><a class="page-link" href="photos4.html">4</a></li>
-              <li class="page-item">
-                <a class="page-link" href="photos2.html">Next</a>
-              </li>
-            </ul>
-          </nav>
-       </section>
-       <footer>
-        <p class="text-center">© all rights reserved</p>
-       </footer>
+           <footer>
+            <p class="text-center">© all rights reserved</p>
+           </footer>
+       </main>
     </body>
     </html>

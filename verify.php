@@ -38,33 +38,33 @@
               <a class="nav-link" href="restaurant.html">RESTAURANT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+              <a class="nav-link" href="contact.php">CONTACT</a>
             </li>
           </ul>
         </div>
       </nav>
-    <main>
-        <section class="row">
-            <section class="col-12 col-md-6">
-                <img src="images/carne.jpg" class="img-fluid" alt="brazilian meat with fries">
-            </section>
-            <section class="col-12 col-md-6">
-                <h2 class="text-md-center">MENU</h2>
-                <ul>Grilled Garlic Artichoke <span class="badge bg-secondary">VEGAN</span></ul> 
-                <ul>Shrimp Cocktail</ul>
-                <ul>Beef Tartar</ul>
-                <ul>Feijoada</ul>
-                <ul>Truffle Polenta Fries <span class="badge bg-secondary">VEGETARIAN</span></ul>
-                <ul>Truffle Filet Mignon</ul>
-                <ul>Black Seabass <span class="badge bg-secondary">NEW</span></ul>
-                <ul>Impossible Burger</ul>
-                <ul>Fish Moqueca</ul>
-                <ul>Virado à Paulista</ul>
-            </section>
-            <footer>
-        <p class="text-center">© all rights reserved</p>
-       </footer>
-        </section>
-    </main>
-</body>
-</html>
+
+      <?php
+          
+            mysql_connect('mysql:host=database;dbname=saudade;charset=utf8', 'root', 'root') or die(mysql_error()); // Connect to database server(localhost) with username and password.
+            mysql_select_db("account") or die(mysql_error()); // Select registration database.
+
+            if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !empty($_GET['hash'])){
+                // Verify data
+            }else{
+                // Invalid approach
+            }
+            if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !empty($_GET['hash'])){
+                // Verify data
+                $email = mysql_escape_string($_GET['email']); // Set email variable
+                $hash = mysql_escape_string($_GET['hash']); // Set hash variable
+            }
+
+            $search = mysql_query("SELECT email active FROM account WHERE email='".$email."' AND active='0'") or die(mysql_error()); 
+            $match  = mysql_num_rows($search);
+
+            $search = mysql_query("SELECT email, hash, active FROM users WHERE email='".$email."' AND hash='".$hash."' AND active='0'") or die(mysql_error()); 
+            $match  = mysql_num_rows($search);
+  
+            echo $match; // Display how many matches have been found -> remove this when done with testing ;)
+        ?>

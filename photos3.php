@@ -8,13 +8,12 @@
     <title>SAUDADE</title>
 </head>
 <body>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <section class="container-fluid">
        <header>
            <section class="row">
                <section class="col-6 col-md-6">
-                   <a href="index.html"><img src="icons/logo.jpg" alt="Welcome to Saudade!" class="float-start" height="35px"></a>
+                   <a href="index.html"><img src="icons/logo.jpg" alt="Welcome to Saudade!" height="35px"></a>
                </section>
                
                <section class="col-6 md-6 d-flex justify-content-end">
@@ -24,6 +23,7 @@
                </section>
            </section>
        </header> 
+
        <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,10 +34,10 @@
               <a class="nav-link" href="menu.html">MENU<span class="sr-only"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="photos.html">PHOTOS</a>
+              <a class="nav-link" href="photos.html"><b>PHOTOS</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="restaurant.html"><b>RESTAURANT</b></a>
+              <a class="nav-link" href="restaurant.html">RESTAURANT</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">CONTACT</a>
@@ -45,43 +45,33 @@
           </ul>
         </div>
       </nav>
-       <main>
-           <section class="row">
-               <section class="col-6 col-md-3">
-                   <h4>ABOUT</h4>
-                   <p class="text-justify">Saudade is an indescribable word in Portuguese that translates in a feeling of longing, yearning, but also in some depths of nostalgia. Saudade opened in 2010 and has now more than a decade of high quality Brazilian food. We serve Brazilian appetizers, such as coxinha and pão de queijo, but also main dishes, such as feijoada, moqueca de peixe, virado à paulista. Make sure to check our <a href="contact.html"> contact page</a> to make a reservation!</p>
-               </section>
-               <section class="col-6 col-md-3">
-                   <h4>OPENING HOURS</h4>
-                       <ul><b>Monday</b> 12-22</ul>
-                       <ul><b>Tuesday</b> closed</ul>
-                       <ul><b>Wednesday</b> 12-22</ul>
-                       <ul><b>Thursday</b> 12-22</ul> 
-                       <ul><b>Friday</b> 12-22</ul>
-                       <ul><b>Saturday</b> 16-22</ul>
-                       <ul><b>Sunday</b> closed</ul>
+       <section class="row justify-content-center">
+           <section class="col-12 col-md-4">
+               <img src="images/watermelon.jpg" alt="watermelon" class="img-fluid">
            </section>
-               <section class="col-6 col-md-3">
-                   <h4>LOCATIONS</h4>
-                   <p>Chaussée de Waterloo, 195</p>
-                   <p>Rue de Bailli, 45</p>
-                   <p>Rue de Flandre, 55</p>
-                   <p>Chaussée de Boondael, 460</p>
-               </section>
-               <section class="col-6 col-md-3">
-                   <h4>MAPS</h4>
-                  <!--Google map-->
-<div id="map-container-google-2" class="z-depth-1-half map-container" class="img-fluid">
-    <iframe src="https://maps.google.com/maps?q=Waterloosesteenweg&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-      style="border:0" allowfullscreen></iframe>
-  </div>
-  
-  <!--Google Maps-->
-               </section>
+           <section class="col-12 col-md-4">
+               <img src="images/bananas.jpeg" alt="bananes" class="img-fluid">
            </section>
-           <footer>
-            <p class="text-center">© all rights reserved</p>
-           </footer>
-       </main>
+           <section class="col-12 col-md-4">
+               <img src="images/mandarines.jpeg" alt="mandarines" class="img-fluid">
+           </section>
+           <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              
+                <a class="page-link" href="photos2.php">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="photos.php">1</a></li>
+              <li class="page-item"><a class="page-link" href="photos2.php">2</a></li>
+              <li class="page-item active"><a class="page-link" href="photos3.php">3</a></li>
+              <li class="page-item"><a class="page-link" href="photos4.php">4</a></li>
+              <li class="page-item">
+                <a class="page-link" href="photos4.php">Next</a>
+              </li>
+            </ul>
+          </nav>
+       </section>
+       <footer>
+        <p class="text-center">© all rights reserved</p>
+       </footer>
     </body>
     </html>

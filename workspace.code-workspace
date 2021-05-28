@@ -1,12 +1,5 @@
 {
-	"folders": [
-		{
-			"path": "../exercises-bootstrap/exercice-5"
-		},
-		{
-			"path": "."
-		}
-	],
+	"folders": [],
 	"settings": {
 		"liveServer.settings.multiRootWorkspaceName": "restaurant-css-framework"
 	}

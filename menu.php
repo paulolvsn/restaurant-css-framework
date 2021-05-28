@@ -13,9 +13,8 @@
        <header>
            <section class="row">
                <section class="col-6 col-md-6">
-                   <a href="index.html"><img src="icons/logo.jpg" alt="Welcome to Saudade!" height="35px"></a>
+                   <a href="index.html"><img src="icons/logo.jpg" alt="Welcome to Saudade!" class="float-start" height="35px"></a>
                </section>
-               
                <section class="col-6 md-6 d-flex justify-content-end">
                     <a href="https://www.facebook.com" target="_blank"><img src="icons/facebook.png" alt="Facebook" height="20px"></a>
                     <a href="https://www.instagram.com" target="_blank"><img src="icons/instagram.png" alt="Instagram" height="20px"></a>
@@ -23,7 +22,6 @@
                </section>
            </section>
        </header> 
-
        <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,47 +29,42 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="menu.html">MENU<span class="sr-only"></a>
+              <a class="nav-link" href="menu.html"><b>MENU</b><span class="sr-only"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="photos.html"><b>PHOTOS</b></a>
+              <a class="nav-link" href="photos.html">PHOTOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="restaurant.html">RESTAURANT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+              <a class="nav-link" href="contact.php">CONTACT</a>
             </li>
           </ul>
         </div>
       </nav>
-       <section class="row justify-content-center">
-           <section class="col-12 col-md-4">
-               <img src="images/watermelon.jpg" alt="watermelon" class="img-fluid">
-           </section>
-           <section class="col-12 col-md-4">
-               <img src="images/bananas.jpeg" alt="bananes" class="img-fluid">
-           </section>
-           <section class="col-12 col-md-4">
-               <img src="images/mandarines.jpeg" alt="mandarines" class="img-fluid">
-           </section>
-           <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-              
-                <a class="page-link" href="photos2.html">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="photos.html">1</a></li>
-              <li class="page-item"><a class="page-link" href="photos2.html">2</a></li>
-              <li class="page-item active"><a class="page-link" href="photos3.html">3</a></li>
-              <li class="page-item"><a class="page-link" href="photos4.html">4</a></li>
-              <li class="page-item">
-                <a class="page-link" href="photos4.html">Next</a>
-              </li>
-            </ul>
-          </nav>
-       </section>
-       <footer>
+    <main>
+        <section class="row">
+            <section class="col-12 col-md-6">
+                <img src="images/carne.jpg" class="img-fluid" alt="brazilian meat with fries">
+            </section>
+            <section class="col-12 col-md-6">
+                <h2 class="text-md-center">MENU</h2>
+                <ul>Grilled Garlic Artichoke <span class="badge bg-secondary">VEGAN</span></ul> 
+                <ul>Shrimp Cocktail</ul>
+                <ul>Beef Tartar</ul>
+                <ul>Feijoada</ul>
+                <ul>Truffle Polenta Fries <span class="badge bg-secondary">VEGETARIAN</span></ul>
+                <ul>Truffle Filet Mignon</ul>
+                <ul>Black Seabass <span class="badge bg-secondary">NEW</span></ul>
+                <ul>Impossible Burger</ul>
+                <ul>Fish Moqueca</ul>
+                <ul>Virado à Paulista</ul>
+            </section>
+            <footer>
         <p class="text-center">© all rights reserved</p>
        </footer>
-    </body>
-    </html>
+        </section>
+    </main>
+</body>
+</html>

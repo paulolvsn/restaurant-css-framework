@@ -13,10 +13,10 @@
        <header>
            <section class="row">
                <section class="col-6 col-md-6">
-                   <a href="index.html"><img src="icons/logo.jpg" alt="Welcome to Saudade!" class="float-start" height="35px"></a>
+                   <a href="index.html"><img src="icons/logo.jpg" alt="Welcome to Saudade!" height="35px"></a>
                </section>
                
-               <section class="col-6 md-6 d-flex justify-content-end">
+               <section class="col-6 md-6 d-flex justify-content-end d-flex justify-content-end">
                     <a href="https://www.facebook.com" target="_blank"><img src="icons/facebook.png" alt="Facebook" height="20px"></a>
                     <a href="https://www.instagram.com" target="_blank"><img src="icons/instagram.png" alt="Instagram" height="20px"></a>
                     <a href="https://www.twitter.com" target="_blank"><img src="icons/twitter.png" alt="Twitter" height="20px"></a> 
@@ -44,33 +44,33 @@
           </ul>
         </div>
       </nav>
-       <section class="row">
+       <section class="row justify-content-center">
            <section class="col-12 col-md-4">
-               <img src="images/carne.jpg" alt="carne" class="img-fluid">
+               <img src="images/feijoada2.jpg" alt="feijoada2" class="img-fluid">
            </section>
            <section class="col-12 col-md-4">
-               <img src="images/feijoada.jpg" alt="feijoada" class="img-fluid">
+               <img src="images/mango.jpeg" alt="mango" class="img-fluid">
            </section>
            <section class="col-12 col-md-4">
-               <img src="images/frango.jpg" alt="frango" class="img-fluid">
+               <img src="images/camarao.jpeg" alt="camarao" class="img-fluid">
            </section>
            <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
               
-                <a class="page-link" href="photos.html">Previous</a>
+                <a class="page-link" href="photos3.php">Previous</a>
               </li>
-              <li class="page-item"><a class="page-link" href="photos.html">1</a></li>
-              <li class="page-item active"><a class="page-link" href="photos2.html">2</a></li>
-              <li class="page-item"><a class="page-link" href="photos3.html">3</a></li>
-              <li class="page-item"><a class="page-link" href="photos4.html">4</a></li>
+              <li class="page-item"><a class="page-link" href="photos.php">1</a></li>
+              <li class="page-item"><a class="page-link" href="photos2.php">2</a></li>
+              <li class="page-item "><a class="page-link" href="photos3.php">3</a></li>
+              <li class="page-item active"><a class="page-link" href="photos4.php">4</a></li>
               <li class="page-item">
-                <a class="page-link" href="photos3.html">Next</a>
+                <li class="page-item disabled"><a class="page-link" href="photos4.php">Next</a></li>
               </li>
             </ul>
           </nav>
        </section>
-      <footer>
-       <p class="text-center">© all rights reserved</p>
-      </footer>
-   </body>
-   </html>
+       <footer>
+        <p class="text-center">© all rights reserved</p>
+       </footer>
+    </body>
+    </html>
